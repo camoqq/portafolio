@@ -1,0 +1,32 @@
+.pic2 {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.mask2 {
+  position: relative;
+}
+.mask2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.content2 {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+}
+.content2 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.content2 p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}

@@ -1,0 +1,58 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: radial-gradient(rgb(18, 27, 81) 30%, rgb(28, 73, 80) 90%);
+
+  height: 80vh;
+}
+.left-con {
+  text-align: center;
+  margin: auto;
+}
+.de {
+  padding-bottom: 3rem;
+}
+.left-con h2 {
+  margin: 0.5rem 1rem;
+}
+.left-con p {
+  margin: 0 4rem;
+}
+.left-con button {
+  background-color: rgb(28, 241, 64);
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.ule {
+  margin-top: 25rem;
+}
+.right-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-con img {
+  width: 40%;
+  margin-bottom: 2rem;
+  margin: 1rem 0;
+  border: 0.5px solid white;
+  border-radius: 7px;
+}
+@media screen and (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+  .left-con {
+    padding: 5rem 0 2rem;
+  }
+  .left-con h2 {
+    padding: 1rem;
+  }
+  .right-con {
+    padding-bottom: 3rem;
+  }
+}

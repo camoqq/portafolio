@@ -1,0 +1,24 @@
+.cont {
+  background-image: radial-gradient(rgb(18, 27, 81) 30%, rgb(47, 127, 139) 90%);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  padding: 2rem;
+}
+
+form input,
+textarea {
+  background-color: rgb(36, 37, 60);
+  color: white;
+  border: 1px solid rgb(126, 122, 119);
+  outline: none;
+}
+.cont button {
+  margin-top: 2rem;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 13px;
+}
